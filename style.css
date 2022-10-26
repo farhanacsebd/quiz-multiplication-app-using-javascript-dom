@@ -4,14 +4,14 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: linear-gradient(to right top, #2caff4, #76a2fa, #b190ee, #de7ad0, #fa68a4, #ff6b7e, #ff7a58, #ef8e36, #d4ab29, #aec53e, #7dda6b, #08eba5);
+    background-image: linear-gradient(to right top, #4c6af4, #756af9, #9669fc, #b567fe, #d164fe, #d669fe, #db6eff, #e073ff, #d27eff, #c488ff, #b890ff, #ad97ff);
     background-position: center;
     background-repeat: no-repeat;
     height: 100vh;
     font-family: cursive;
 } 
 
-.form{
+.hero{
     background-color: #ffffff;
     padding: 30px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.5);
@@ -37,7 +37,7 @@ body{
 }
 
 .btn{
-    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    background-color: rgb(242, 40, 74);
     color: #ffffff;
     border: none;
     display: block;
@@ -51,9 +51,9 @@ body{
     cursor: pointer;
 }
 
-.btn:hover{
+/* .btn:hover{
     filter: brightness(0.9);
-}
+} */
 
 .score{
     color: #341f97;
